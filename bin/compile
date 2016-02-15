@@ -73,6 +73,7 @@ echo "-----> Bundling bundle"
 cd $APP_SOURCE_DIR
 
 echo "-----> Installing dependencies for Meteor 1.3"
+npm -g install npm@latest-2
 npm install
 
 # Now on to bundling. Don't put the bundle in $APP_CHECKOUT_DIR, or it will
